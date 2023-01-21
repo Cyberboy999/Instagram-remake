@@ -52,9 +52,9 @@ Body {
     align-items: center ;
     flex-direction: column;
     background-color: white;
-    width: 50%;
-    padding: 1.3rem 1;  
+    width: 65%;  
     border: 1px solid lightgray;
+    padding: 2px 10px 2px 10px;
 }
 
 .group:nth-child(1) {
@@ -137,26 +137,3 @@ Body {
     margin-left: 1vh;
 }
 
-@media (max-width: 1024px) {
-    .intsgramWrapper {
-        width: 90%;
-    }
-}
-
-@media (max-width: 650px) {
-    .body {
-        background-color: #ffffff;
-    }
-
-    .intsgramWrapper {
-        width: 90%;
-    }
-
-    .instagramPhone {
-        display: none;
-    }
-
-    .instagramContinue {
-        width: 100%;
-    }
-}
